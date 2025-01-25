@@ -1,0 +1,65 @@
+{
+    "id": "04331fb6-ed91-4d74-b6e9-4bfe0fcfb457",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "editorPreload",
+        "preloadPackFiles": [
+            "starter-template-basic-typescript/assets/asset-pack.json"
+        ],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Preload",
+        "borderWidth": 750,
+        "borderHeight": 1624
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "19bdcf05-0d95-408e-a585-c4f9144bfa79",
+            "label": "intro",
+            "texture": {
+                "key": "intro"
+            },
+            "x": 329,
+            "y": 794
+        },
+        {
+            "type": "Rectangle",
+            "id": "845d4ca6-7417-44fc-97e3-a3bb2fbbdd03",
+            "label": "progressBar",
+            "scope": "CLASS",
+            "x": 127,
+            "y": 1625,
+            "scaleX": 3,
+            "scaleY": 2,
+            "originX": 0,
+            "isFilled": true,
+            "fillColor": "#e7a824",
+            "height": 20
+        },
+        {
+            "type": "Rectangle",
+            "id": "10e175a4-81b6-449e-9561-6d8ba54d3812",
+            "label": "progressBarBg",
+            "x": 381,
+            "y": 1625,
+            "scaleX": 3,
+            "scaleY": 2,
+            "isFilled": true,
+            "fillColor": "#000000",
+            "strokeColor": "#312a60",
+            "lineWidth": 2,
+            "isStroked": true,
+            "width": 256,
+            "height": 20
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
