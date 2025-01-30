@@ -1,8 +1,9 @@
-import { createApp } from 'vue';
+import { createApp } from 'https://cdn.jsdelivr.net/npm/vue@3.2.37/dist/vue.esm-browser.js';
 import App from './App.vue';
 import Menu from "./scenes/Menu.js";
 import Preload from "./scenes/Preload.js";
 import { SpinePlugin } from "@esotericsoftware/spine-phaser";
+
 
 window.addEventListener('load', async  function () {
 
