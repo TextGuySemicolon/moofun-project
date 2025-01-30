@@ -2,7 +2,7 @@ import { createApp } from 'https://cdn.jsdelivr.net/npm/vue@3.2.37/dist/vue.esm-
 import App from './App.vue';
 import Menu from "./scenes/Menu.js";
 import Preload from "./scenes/Preload.js";
-import { SpinePlugin } from "@esotericsoftware/spine-phaser";
+import { SpinePlugin } from 'https://cdn.jsdelivr.net/npm/@esotericsoftware/spine-phaser@latest/spine-phaser.min.js';
 
 
 window.addEventListener('load', async  function () {
