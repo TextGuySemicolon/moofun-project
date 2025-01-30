@@ -5,22 +5,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	
-	<title>My Game</title>
+	<title>Phaser with Vue</title>
 
     <script src="https://cdn.jsdelivr.net/npm/phaser@v3.86.0/dist/phaser.min.js"></script>
-	<script src="src/main.js" type="module"></script>
+	
+    
 
 	<style>
 		body {
-			background: #2f2f2f;
+			background: #000000;
 			margin: 0;
 			padding: 0;
 		}
+		#game-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 0; /* Phaser game is below Vue */
+        }
 	</style>
 
+  <script type="module" crossorigin src="/assets/index-45de4a5a.js"></script>
+  <link rel="stylesheet" href="/assets/index-81793b2e.css">
 </head>
 
 <body>
+	<div id="game-container"></div>
+    <div id="app"></div>
 </body>
 
 </html>
