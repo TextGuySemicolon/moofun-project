@@ -1,19 +1,58 @@
-import Level from "./scenes/Level.js";
+import { createApp } from 'vue';
+import App from './App.vue';
+import Menu from "./scenes/Menu.js";
 import Preload from "./scenes/Preload.js";
+import { SpinePlugin } from "@esotericsoftware/spine-phaser";
 
-window.addEventListener('load', function () {
+window.addEventListener('load', async  function () {
 
-	var game = new Phaser.Game({
-		width: 750,
-		height: 1624,
+	// Initialize Vue
+	const app = createApp(App);
+	app.mount('#app');
+
+	// Initialize Phaser
+	const config = {
 		type: Phaser.AUTO,
-        backgroundColor: "#242424",
+		parent: 'game-container',
+		width: window.innerWidth,
+    	height: window.innerHeight,
+        backgroundColor: "#000000",
 		scale: {
-			mode: Phaser.Scale.FIT,
-			autoCenter: Phaser.Scale.CENTER_BOTH
+			mode: Phaser.Scale.RESIZE,
+			autoCenter: Phaser.Scale.Center
+		},
+		plugins: {
+			scene: [{
+				key: "spine.SpinePlugin",
+				plugin: SpinePlugin,
+				mapping: "spine"
+			}]
+		},
+	}
+
+	
+
+	const game = new Phaser.Game(config);
+
+	game.scene.add("Menu", Menu);
+	game.scene.add("Preload", Preload, true);
+
+	const onChangeScreen = () => {
+		game.scale.resize(window.innerWidth, window.innerHeight);
+		
+		const activeScene = game.scene.getScenes(true)[0]; // Get the currently active scene
+		if (activeScene && (activeScene instanceof Menu || activeScene instanceof Preload)) {
+			activeScene.resize();
 		}
+	}
+
+	const _orientation = screen.orientation;
+	_orientation.addEventListener('change', () => {
+		onChangeScreen();
 	});
 
-	game.scene.add("Level", Level);
-	game.scene.add("Preload", Preload, true);
+	window.addEventListener('resize', () => {
+		onChangeScreen();
+	});
 });
+

@@ -15,16 +15,6 @@
     },
     "displayList": [
         {
-            "type": "Image",
-            "id": "19bdcf05-0d95-408e-a585-c4f9144bfa79",
-            "label": "intro",
-            "texture": {
-                "key": "intro"
-            },
-            "x": 329,
-            "y": 794
-        },
-        {
             "type": "Rectangle",
             "id": "845d4ca6-7417-44fc-97e3-a3bb2fbbdd03",
             "label": "progressBar",

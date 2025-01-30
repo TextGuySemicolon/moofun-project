@@ -11,18 +11,7 @@
         "borderWidth": 750,
         "borderHeight": 1624
     },
-    "displayList": [
-        {
-            "type": "Image",
-            "id": "9476cad4-fac6-4715-960f-248b0bbb5435",
-            "label": "intro",
-            "texture": {
-                "key": "intro"
-            },
-            "x": 329,
-            "y": 794
-        }
-    ],
+    "displayList": [],
     "plainObjects": [],
     "meta": {
         "app": "Phaser Editor - Scene Editor",
