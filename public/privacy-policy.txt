@@ -1,0 +1,42 @@
+**Privacy Policy for Moofun**
+
+**Effective Date:** March 1st, 2025
+
+**1. Introduction**  
+Welcome to Moofun ("App"). Your privacy is important to us. This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our App.
+
+**2. Information We Collect**  
+We may collect the following types of information:
+- **Wallet Information:** When you connect your TON wallet via TON Connect, we may collect your wallet address but do not store private keys.
+- **Usage Data:** We may collect non-personal data such as interactions within the App for analytics and service improvement.
+- **Device Information:** Basic device details such as OS type and version may be collected for troubleshooting and performance optimization.
+
+**3. How We Use Your Information**  
+We use collected information for the following purposes:
+- To enable wallet connections and facilitate blockchain transactions.
+- To improve and optimize App functionality and security.
+- To comply with legal and regulatory requirements where applicable.
+
+**4. Data Sharing and Disclosure**  
+We do not sell, rent, or trade your personal data. However, we may share information with:
+- **Service Providers:** Third-party analytics or infrastructure providers who assist in maintaining the App.
+- **Legal Authorities:** If required by law, regulation, or legal process.
+
+**5. Data Security**  
+We take reasonable security measures to protect your data from unauthorized access, disclosure, or loss. However, blockchain transactions are inherently public, and we cannot guarantee complete security.
+
+**6. Third-Party Services**  
+Our App may contain links or integrations with third-party services, such as TON Connect. We are not responsible for their privacy practices. Please review their policies before using such services.
+
+**7. User Rights**  
+Depending on your jurisdiction, you may have rights to access, correct, or delete your data. Since we do not store personal data, these requests may be limited in scope.
+
+**8. Changes to This Privacy Policy**  
+We may update this Privacy Policy from time to time. Changes take effect upon posting. Continued use of the App signifies acceptance of the updated policy.
+
+**9. Contact Information**  
+For any privacy-related inquiries, please contact us through the official channels within the App.
+
+---
+By using Moofun, you acknowledge that you have read and agreed to this Privacy Policy.
+
