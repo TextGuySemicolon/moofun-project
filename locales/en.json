@@ -1,0 +1,242 @@
+{
+    "menu": {
+      "home": "Home",
+      "earn": "Earn",
+      "wheel": "Wheel",
+      "invite": "Invite",
+      "profile": "Profile"
+    },
+    "invite": {
+      "title": "Invite a friend",
+      "inviteFriend": "Invite a friend",
+      "invitePremiumFriend": "Invite a friend with TG Premium",
+      "infoText": "Accumulating a certain number of invitations will earn you mystery boxes daily",
+      "dailyChestTargets": "Earn {count} chest daily",
+      "referralDetails": "Referral Details",
+      "user": "User"
+    },
+    "profile": {
+      "title": "Profile",
+      "tonRewardBalance": "TON Reward Balance",
+      "settings": "Settings"
+    },
+    "setting": {
+      "title": "Setting",
+      "selectLanguage": "Select Language",
+      "sound": "Sound",
+      "soundOn": "On",
+      "soundOff": "Off",
+      "username": "Username",
+      "bindEmail": "Bind Email",
+      "notSet": "-",
+      "walletHistory": "Wallet History",
+      "gameHistory": "Game History",
+      "vestedHistory": "Vested $Bull History",
+      "globalIndividualPoolHistory": "Global Individual Pool History",
+      "globalTeamPoolHistory": "Global Team Pool History"
+    },
+    "chest": {
+      "accumulated": "ACCUMULATED CHEST",
+      "info": "Info",
+      "odd": "Odd",
+      "countdown": "Count down",
+      "open": "OPEN",
+      "collect": "Collect Chest",
+      "waiting": "Waiting",
+      "jackpot": "Jackpot",
+      "icon": "Chest icon",
+      "image": "Chest",
+      "clickToOpen": "Click anywhere to open",
+      "rewards": "Rewards",
+      "shareRewards": "Share Your Rewards!",
+      "openAnotherChest": "Open Another Chest?",
+      "allChestsOpened": "All Chests Opened!",
+      "nextChest": "Next Chest",
+      "totalRewards": "Total Rewards",
+      "unavailable": "Unavailable",
+      "claimedChests": "Claimed {count} Daily Chest(s)!",
+      "openReferralChests": "Open Referral Chests ({count})",
+      "noChestsAvailable": "No Chests Available",
+      "openedReferralChests": "Opened {count} Referral Chest(s)!",
+      "referralChestsRewards": "Check your inventory for rewards",
+      "failedToOpenChests": "Failed to open referral chests",
+      "errorOpeningChests": "An error occurred while opening referral chests"
+    },
+    "wallet": {
+      "connect": "Connect Wallet",
+      "copyAddress": "Copy Address",
+      "addressCopied": "Address copied!",
+      "disconnect": "Disconnect",
+      "connectionFailed": "Connection Failed",
+      "failedToConnect": "Failed to connect wallet",
+      "disconnected": "Wallet disconnected",
+      "failedToDisconnect": "Failed to disconnect wallet",
+      "addressCopiedNotification": "Wallet address copied to clipboard",
+      "connected": "Wallet Connected",
+      "successfullyConnected": "Successfully connected to your wallet",
+      "invalidTokenDisconnecting": "Invalid token but wallet connected, disconnecting",
+      "invalidTokenDetected": "Invalid token detected",
+      "failedToVerifyProof": "Failed to verify proof",
+      "validTokenFound": "Valid token found on init",
+      "reconnected": "Wallet Reconnected",
+      "successfullyReconnected": "Successfully reconnected to your wallet",
+      "failedToGeneratePayload": "Failed to generate TON proof payload",
+      "settingConnectParameters": "Setting connect parameters with payload:",
+      "walletError": "Wallet Error",
+      "connection": "connection",
+      "disconnection": "disconnection",
+      "failedDuring": "Failed during {context}",
+      "errorIn": "Error in",
+      "statusChanged": "Wallet connection status changed: {oldStatus} -> {newStatus}"
+    },
+    "notification": {
+      "chestCollected": "Chest Collected!",
+      "checkInventory": "Check your inventory for rewards",
+      "failedToCollect": "Failed to collect chest",
+      "errorCollecting": "An error occurred while collecting the chest"
+    },
+    "button": {
+      "claimReward": "Claim Reward",
+      "claimDailyReward": "Claim Daily Reward",
+      "next": "NEXT",
+      "copy": "COPY",
+      "comingSoon": "Coming soon",
+      "unavailable": "Unavailable"
+    },
+    "buttons": {
+      "items": "Items"
+    },
+    "general": {
+      "close": "CLOSE"
+    },
+    "referral": {
+      "title": "Referral",
+      "level1": "Level 1",
+      "level2": "Level 2",
+      "columns": {
+        "no": "No",
+        "name": "Name",
+        "user": "User",
+        "totalAccumulated": "Total Accumulated",
+        "lastSevenDays": "Last 7 Days",
+        "weekBoost": "Week Boost",
+        "dayBoost": "Day Boost"
+      },
+      "applied": "Referral Applied",
+      "codeAppliedSuccess": "Your referral code has been successfully applied",
+      "bindingFailedNoResponse": "Failed to bind referral code: No response from API",
+      "processingError": "Error processing referral:",
+      "defaultCodePlaceholder": "Referral Code",
+      "linkCopied": "Link Copied!",
+      "linkCopiedToClipboard": "Referral link copied to clipboard",
+      "failedToCopyError": "Failed to copy: ",
+      "failedToCopyLink": "Failed to copy referral link"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "pageInfo": "Page {current} of {total}"
+    },
+    "earn": {
+      "title": "Earn",
+      "dailyCheckIn": "DAILY CHECK-IN",
+      "socialTask": "SOCIAL TASK",
+      "loading": "Loading tasks...",
+      "completed": "Completed",
+      "taskCompletedSuccess": "Task completed successfully",
+      "taskCompletedError": "Failed to complete task",
+      "unexpectedError": "An unexpected error occurred",
+      "failedToLoadTasks": "Failed to load tasks"
+    },
+    "inventory": {
+      "title": "Inventory",
+      "tabs": {
+        "items": "Items",
+        "shards": "Shards"
+      },
+      "slots": {
+        "emptySlot": "Empty slot selected.",
+        "noItemSelected": "No item selected."
+      },
+      "buttons": {
+        "craft": "Craft"
+      },
+      "items": {
+        "ticket": {
+          "name": "Ticket",
+          "description": "Used to enter premium challenges."
+        },
+        "freeTicket": {
+          "name": "Free Ticket",
+          "description": "Craftable ticket that allows one free entry into events."
+        },
+        "gem": {
+          "name": "Gem",
+          "description": "A rare currency."
+        },
+        "ton": {
+          "name": "TON",
+          "description": "Blockchain token used in decentralized operations."
+        },
+        "fragments": {
+          "green": {
+            "name": "Green Fragment",
+            "description": "160 needed for 1 ticket."
+          },
+          "blue": {
+            "name": "Blue Fragment",
+            "description": "80 needed for 3 tickets."
+          },
+          "purple": {
+            "name": "Purple Fragment",
+            "description": "40 needed for 15 tickets."
+          },
+          "gold": {
+            "name": "Gold Fragment",
+            "description": "20 needed for 60 tickets."
+          }
+        }
+      }
+    },
+    "alt": {
+      "chestIcon": "Chest Icon",
+      "smallChest": "Small Chest",
+      "accumulatedChestPanel": "Accumulated Chest Panel"
+    },
+    "tabs": {
+      "info": "Info",
+      "odd": "Odd"
+    },
+    "titles": {
+      "jackpot": "JACKPOT",
+      "accumulatedChest": "Accumulated Chest"
+    },
+    "descriptions": {
+      "chestIndication": "Indication about the accumulate chest"
+    },
+    "telegram": {
+      "boost": {
+        "title": "Telegram Boost",
+        "applied": "Boost Applied!",
+        "successMessage": "You have boosted a friend's chest countdown by {minutes} minutes and they received {gems} gems",
+        "failed": "Boost Failed",
+        "processingError": "Error performing Telegram boost",
+        "genericError": "Failed to process boost",
+        "initDataUnavailable": "Telegram authentication data not available",
+        "minutes": "Minutes",
+        "gems": "Gems",
+        "processing": "Processing...",
+        "applyBoost": "Apply Boost",
+        "noBoostCode": "No boost code available",
+        "share": {
+          "title": "Share on Telegram",
+          "description": "Share with your friends to reduce your chest countdown timer",
+          "buttonText": "Share on Telegram",
+          "copyLink": "Copy Link",
+          "linkCopied": "Link copied to clipboard!",
+          "failedToCopy": "Failed to copy link"
+        }
+      }
+    }
+  }
+  
