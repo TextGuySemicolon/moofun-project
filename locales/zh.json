@@ -1,242 +1,247 @@
 {
-    "menu": {
-      "home": "主页",
-      "earn": "赚取",
-      "wheel": "轮盘",
-      "invite": "邀请",
-      "profile": "个人资料"
+  "menu": {
+    "home": "主页",
+    "earn": "赚取",
+    "wheel": "轮盘",
+    "invite": "邀请",
+    "profile": "个人资料"
+  },
+  "invite": {
+    "title": "邀请朋友",
+    "inviteFriend": "邀请朋友",
+    "invitePremiumFriend": "邀请拥有TG Premium的朋友",
+    "infoText": "累积一定数量的邀请将每天为您赢得神秘宝箱",
+    "dailyChestTargets": "每天赚取{count}个宝箱",
+    "referralDetails": "推荐详情",
+    "user": "用户"
+  },
+  "profile": {
+    "title": "个人资料",
+    "tonRewardBalance": "TON奖励余额",
+    "settings": "设置"
+  },
+  "setting": {
+    "title": "设置",
+    "selectLanguage": "选择语言",
+    "sound": "声音",
+    "soundOn": "开启",
+    "soundOff": "关闭",
+    "username": "用户名",
+    "bindEmail": "绑定邮箱",
+    "notSet": "-",
+    "walletHistory": "钱包历史",
+    "gameHistory": "游戏历史",
+    "vestedHistory": "Vested $Bull历史",
+    "globalIndividualPoolHistory": "全球个人池历史",
+    "globalTeamPoolHistory": "全球团队池历史"
+  },
+  "chest": {
+    "accumulated": "累积宝箱",
+    "info": "信息",
+    "odd": "赔率",
+    "countdown": "倒计时",
+    "open": "打开",
+    "collect": "收集宝箱",
+    "waiting": "等待",
+    "jackpot": "大奖",
+    "icon": "宝箱图标",
+    "image": "宝箱",
+    "clickToOpen": "点击任意地方打开",
+    "rewards": "奖励",
+    "shareRewards": "分享您的奖励！",
+    "openAnotherChest": "打开另一个宝箱？",
+    "allChestsOpened": "所有宝箱已打开！",
+    "nextChest": "下一个宝箱",
+    "totalRewards": "总奖励",
+    "unavailable": "不可用",
+    "claimedChests": "已领取{count}个每日宝箱！",
+    "openReferralChests": "打开推荐宝箱({count})",
+    "noChestsAvailable": "没有宝箱可用",
+    "openedReferralChests": "已打开{count}个推荐宝箱！",
+    "referralChestsRewards": "查看您的库存奖励",
+    "failedToOpenChests": "打开推荐宝箱失败",
+    "errorOpeningChests": "打开推荐宝箱时出错"
+  },
+  "wallet": {
+    "connect": "连接钱包",
+    "copyAddress": "复制地址",
+    "addressCopied": "地址已复制！",
+    "disconnect": "断开连接",
+    "connectionFailed": "连接失败",
+    "failedToConnect": "连接钱包失败",
+    "disconnected": "钱包已断开",
+    "failedToDisconnect": "断开钱包失败",
+    "addressCopiedNotification": "钱包地址已复制到剪贴板",
+    "connected": "钱包已连接",
+    "successfullyConnected": "已成功连接到钱包",
+    "invalidTokenDisconnecting": "无效的令牌但钱包已连接，正在断开连接",
+    "invalidTokenDetected": "检测到无效令牌",
+    "failedToVerifyProof": "验证证明失败",
+    "validTokenFound": "初始化时找到有效的令牌",
+    "reconnected": "钱包已重新连接",
+    "successfullyReconnected": "已成功重新连接到钱包",
+    "failedToGeneratePayload": "生成TON证明负载失败",
+    "settingConnectParameters": "正在使用负载设置连接参数：",
+    "walletError": "钱包错误",
+    "connection": "连接",
+    "disconnection": "断开连接",
+    "failedDuring": "在{context}期间失败",
+    "errorIn": "出错",
+    "statusChanged": "钱包连接状态已更改：{oldStatus} -> {newStatus}"
+  },
+  "notification": {
+    "chestCollected": "宝箱已收集！",
+    "checkInventory": "查看您的库存奖励",
+    "failedToCollect": "收集宝箱失败",
+    "errorCollecting": "收集宝箱时出错"
+  },
+  "button": {
+    "claimReward": "领取奖励",
+    "claimDailyReward": "领取每日奖励",
+    "next": "下一个",
+    "copy": "复制",
+    "comingSoon": "即将推出",
+    "unavailable": "不可用"
+  },
+  "buttons": {
+    "items": "物品"
+  },
+  "general": {
+    "close": "关闭"
+  },
+  "referral": {
+    "title": "推荐",
+    "level1": "一级",
+    "level2": "二级",
+    "columns": {
+      "no": "编号",
+      "name": "名称",
+      "user": "用户",
+      "totalAccumulated": "总累计",
+      "lastSevenDays": "过去7天",
+      "weekBoost": "周提升",
+      "dayBoost": "日提升"
     },
-    "invite": {
-      "title": "邀请朋友",
-      "inviteFriend": "邀请朋友",
-      "invitePremiumFriend": "邀请拥有TG Premium的朋友",
-      "infoText": "累积一定数量的邀请将每天为您赢得神秘宝箱",
-      "dailyChestTargets": "每天赚取{count}个宝箱",
-      "referralDetails": "推荐详情",
-      "user": "用户"
+    "applied": "推荐已应用",
+    "codeAppliedSuccess": "您的推荐码已成功应用",
+    "bindingFailedNoResponse": "绑定推荐码失败：API没有响应",
+    "processingError": "处理推荐时出错：",
+    "defaultCodePlaceholder": "推荐码",
+    "linkCopied": "链接已复制！",
+    "linkCopiedToClipboard": "推荐链接已复制到剪贴板",
+    "failedToCopyError": "复制失败：",
+    "failedToCopyLink": "复制推荐链接失败"
+  },
+  "pagination": {
+    "previous": "上一页",
+    "next": "下一页",
+    "pageInfo": "第{current}页，共{total}页"
+  },
+  "earn": {
+    "title": "赚取",
+    "dailyCheckIn": "每日签到",
+    "socialTask": "社交任务",
+    "loading": "加载任务...",
+    "completed": "已完成",
+    "taskCompletedSuccess": "任务完成成功",
+    "taskCompletedError": "任务完成失败",
+    "unexpectedError": "发生意外错误",
+    "failedToLoadTasks": "加载任务失败"
+  },
+  "inventory": {
+    "title": "库存",
+    "tabs": {
+      "items": "物品",
+      "shards": "碎片"
     },
-    "profile": {
-      "title": "个人资料",
-      "tonRewardBalance": "TON奖励余额",
-      "settings": "设置"
-    },
-    "setting": {
-      "title": "设置",
-      "selectLanguage": "选择语言",
-      "sound": "声音",
-      "soundOn": "开启",
-      "soundOff": "关闭",
-      "username": "用户名",
-      "bindEmail": "绑定邮箱",
-      "notSet": "-",
-      "walletHistory": "钱包历史",
-      "gameHistory": "游戏历史",
-      "vestedHistory": "Vested $Bull历史",
-      "globalIndividualPoolHistory": "全球个人池历史",
-      "globalTeamPoolHistory": "全球团队池历史"
-    },
-    "chest": {
-      "accumulated": "累积宝箱",
-      "info": "信息",
-      "odd": "赔率",
-      "countdown": "倒计时",
-      "open": "打开",
-      "collect": "收集宝箱",
-      "waiting": "等待",
-      "jackpot": "大奖",
-      "icon": "宝箱图标",
-      "image": "宝箱",
-      "clickToOpen": "点击任意地方打开",
-      "rewards": "奖励",
-      "shareRewards": "分享您的奖励！",
-      "openAnotherChest": "打开另一个宝箱？",
-      "allChestsOpened": "所有宝箱已打开！",
-      "nextChest": "下一个宝箱",
-      "totalRewards": "总奖励",
-      "unavailable": "不可用",
-      "claimedChests": "已领取{count}个每日宝箱！",
-      "openReferralChests": "打开推荐宝箱({count})",
-      "noChestsAvailable": "没有宝箱可用",
-      "openedReferralChests": "已打开{count}个推荐宝箱！",
-      "referralChestsRewards": "查看您的库存奖励",
-      "failedToOpenChests": "打开推荐宝箱失败",
-      "errorOpeningChests": "打开推荐宝箱时出错"
-    },
-    "wallet": {
-      "connect": "连接钱包",
-      "copyAddress": "复制地址",
-      "addressCopied": "地址已复制！",
-      "disconnect": "断开连接",
-      "connectionFailed": "连接失败",
-      "failedToConnect": "连接钱包失败",
-      "disconnected": "钱包已断开",
-      "failedToDisconnect": "断开钱包失败",
-      "addressCopiedNotification": "钱包地址已复制到剪贴板",
-      "connected": "钱包已连接",
-      "successfullyConnected": "已成功连接到钱包",
-      "invalidTokenDisconnecting": "无效的令牌但钱包已连接，正在断开连接",
-      "invalidTokenDetected": "检测到无效令牌",
-      "failedToVerifyProof": "验证证明失败",
-      "validTokenFound": "初始化时找到有效的令牌",
-      "reconnected": "钱包已重新连接",
-      "successfullyReconnected": "已成功重新连接到钱包",
-      "failedToGeneratePayload": "生成TON证明负载失败",
-      "settingConnectParameters": "正在使用负载设置连接参数：",
-      "walletError": "钱包错误",
-      "connection": "连接",
-      "disconnection": "断开连接",
-      "failedDuring": "在{context}期间失败",
-      "errorIn": "出错",
-      "statusChanged": "钱包连接状态已更改：{oldStatus} -> {newStatus}"
-    },
-    "notification": {
-      "chestCollected": "宝箱已收集！",
-      "checkInventory": "查看您的库存奖励",
-      "failedToCollect": "收集宝箱失败",
-      "errorCollecting": "收集宝箱时出错"
-    },
-    "button": {
-      "claimReward": "领取奖励",
-      "claimDailyReward": "领取每日奖励",
-      "next": "下一个",
-      "copy": "复制",
-      "comingSoon": "即将推出",
-      "unavailable": "不可用"
+    "slots": {
+      "emptySlot": "未选择物品。",
+      "noItemSelected": "没有选择物品。"
     },
     "buttons": {
-      "items": "物品"
+      "craft": "合成"
     },
-    "general": {
-      "close": "关闭"
-    },
-    "referral": {
-      "title": "推荐",
-      "level1": "一级",
-      "level2": "二级",
-      "columns": {
-        "no": "编号",
-        "name": "名称",
-        "user": "用户",
-        "totalAccumulated": "总累计",
-        "lastSevenDays": "过去7天",
-        "weekBoost": "周提升",
-        "dayBoost": "日提升"
+    "items": {
+      "ticket": {
+        "name": "门票",
+        "description": "用于进入高级挑战。"
       },
-      "applied": "推荐已应用",
-      "codeAppliedSuccess": "您的推荐码已成功应用",
-      "bindingFailedNoResponse": "绑定推荐码失败：API没有响应",
-      "processingError": "处理推荐时出错：",
-      "defaultCodePlaceholder": "推荐码",
-      "linkCopied": "链接已复制！",
-      "linkCopiedToClipboard": "推荐链接已复制到剪贴板",
-      "failedToCopyError": "复制失败：",
-      "failedToCopyLink": "复制推荐链接失败"
-    },
-    "pagination": {
-      "previous": "上一页",
-      "next": "下一页",
-      "pageInfo": "第{current}页，共{total}页"
-    },
-    "earn": {
-      "title": "赚取",
-      "dailyCheckIn": "每日签到",
-      "socialTask": "社交任务",
-      "loading": "加载任务...",
-      "completed": "已完成",
-      "taskCompletedSuccess": "任务完成成功",
-      "taskCompletedError": "任务完成失败",
-      "unexpectedError": "发生意外错误",
-      "failedToLoadTasks": "加载任务失败"
-    },
-    "inventory": {
-      "title": "库存",
-      "tabs": {
-        "items": "物品",
-        "shards": "碎片"
+      "freeTicket": {
+        "name": "免费门票",
+        "description": "可合成的门票，允许免费参与活动。"
       },
-      "slots": {
-        "emptySlot": "未选择物品。",
-        "noItemSelected": "没有选择物品。"
+      "gem": {
+        "name": "宝石",
+        "description": "一种稀有货币。"
       },
-      "buttons": {
-        "craft": "合成"
+      "ton": {
+        "name": "TON",
+        "description": "用于去中心化操作的区块链代币。"
       },
-      "items": {
-        "ticket": {
-          "name": "门票",
-          "description": "用于进入高级挑战。"
+      "fragments": {
+        "green": {
+          "name": "绿色碎片",
+          "description": "需要160个来兑换1张门票。"
         },
-        "freeTicket": {
-          "name": "免费门票",
-          "description": "可合成的门票，允许免费参与活动。"
+        "blue": {
+          "name": "蓝色碎片",
+          "description": "需要80个来兑换3张门票。"
         },
-        "gem": {
-          "name": "宝石",
-          "description": "一种稀有货币。"
+        "purple": {
+          "name": "紫色碎片",
+          "description": "需要40个来兑换15张门票。"
         },
-        "ton": {
-          "name": "TON",
-          "description": "用于去中心化操作的区块链代币。"
-        },
-        "fragments": {
-          "green": {
-            "name": "绿色碎片",
-            "description": "需要160个来兑换1张门票。"
-          },
-          "blue": {
-            "name": "蓝色碎片",
-            "description": "需要80个来兑换3张门票。"
-          },
-          "purple": {
-            "name": "紫色碎片",
-            "description": "需要40个来兑换15张门票。"
-          },
-          "gold": {
-            "name": "黄金碎片",
-            "description": "需要20个来兑换60张门票。"
-          }
-        }
-      }
-    },
-    "alt": {
-      "chestIcon": "宝箱图标",
-      "smallChest": "小宝箱",
-      "accumulatedChestPanel": "累积宝箱面板"
-    },
-    "tabs": {
-      "info": "信息",
-      "odd": "赔率"
-    },
-    "titles": {
-      "jackpot": "大奖",
-      "accumulatedChest": "累积宝箱"
-    },
-    "descriptions": {
-      "chestIndication": "累积宝箱的指示"
-    },
-    "telegram": {
-      "boost": {
-        "title": "Telegram提升",
-        "applied": "提升已应用！",
-        "successMessage": "您已提升朋友宝箱倒计时{minutes}分钟，并且他们获得了{gems}宝石",
-        "failed": "提升失败",
-        "processingError": "处理Telegram提升时出错",
-        "genericError": "处理提升时失败",
-        "initDataUnavailable": "Telegram认证数据不可用",
-        "minutes": "分钟",
-        "gems": "宝石",
-        "processing": "处理中...",
-        "applyBoost": "应用提升",
-        "noBoostCode": "没有提升代码",
-        "share": {
-          "title": "分享至Telegram",
-          "description": "分享给你的朋友以减少宝箱倒计时",
-          "buttonText": "分享到Telegram",
-          "copyLink": "复制链接",
-          "linkCopied": "链接已复制到剪贴板！",
-          "failedToCopy": "复制链接失败"
+        "gold": {
+          "name": "黄金碎片",
+          "description": "需要20个来兑换60张门票。"
         }
       }
     }
+  },
+  "alt": {
+    "chestIcon": "宝箱图标",
+    "smallChest": "小宝箱",
+    "accumulatedChestPanel": "累积宝箱面板"
+  },
+  "tabs": {
+    "info": "信息",
+    "odd": "赔率"
+  },
+  "titles": {
+    "jackpot": "大奖",
+    "accumulatedChest": "累积宝箱"
+  },
+  "descriptions": {
+    "chestIndication": "累积宝箱的指示"
+  },
+  "telegram": {
+    "boost": {
+      "title": "Telegram提升",
+      "applied": "提升已应用！",
+      "successMessage": "您已提升朋友宝箱倒计时{minutes}分钟，并且他们获得了{gems}宝石",
+      "failed": "提升失败",
+      "processingError": "处理Telegram提升时出错",
+      "genericError": "处理提升时失败",
+      "initDataUnavailable": "Telegram认证数据不可用",
+      "minutes": "分钟",
+      "gems": "宝石",
+      "processing": "处理中...",
+      "applyBoost": "应用提升",
+      "noBoostCode": "没有提升代码",
+      "share": {
+        "title": "分享至Telegram",
+        "description": "分享给你的朋友以减少宝箱倒计时",
+        "buttonText": "分享到Telegram",
+        "copyLink": "复制链接",
+        "linkCopied": "链接已复制到剪贴板！",
+        "failedToCopy": "复制链接失败"
+      }
+    }
+  },
+  "jackpotPopup": {
+    "title": "恭喜!",
+    "rarity": "Jackpot",
+    "message": "你赢得了<strong>Jackpot奖励</strong>！继续参与以获得更多宝藏吧。",
+    "acceptButton": "接受"
   }
-  
+}
