@@ -243,5 +243,13 @@
     "rarity": "Jackpot",
     "message": "你赢得了<strong>Jackpot奖励</strong>！继续参与以获得更多宝藏吧。",
     "acceptButton": "接受"
+  },
+  "fourChestPopup": {
+    "title": "欢迎奖励！",
+    "rarity": "早期访问奖励",
+    "message": "作为我们最早的用户之一，你已解锁<strong>专属宝箱奖励</strong>！赶紧领取，活动即将结束。",
+    "acceptButton": "领取宝箱",
+    "loading": "领取中..."
   }
+  
 }

@@ -243,5 +243,13 @@
     "rarity": "Jackpot",
     "message": "You’ve won the <strong>jackpot reward</strong>! Keep participating to earn even more treasures.",
     "acceptButton": "Accept"
+  },
+  "fourChestPopup": {
+    "title": "Welcome Bonus!",
+    "rarity": "Early Access Reward",
+    "message": "As one of our earliest users, you’ve unlocked a <strong>special reward chest</strong>! Claim it now before it disappears.",
+    "acceptButton": "Claim Chest",
+    "loading": "Claiming..."
   }
+  
 }
