@@ -217,8 +217,6 @@
   "telegram": {
     "boost": {
       "title": "Telegram Boost",
-      "applied": "Boost Applied!",
-      "successMessage": "You have boosted a friend's chest countdown by {minutes} minutes and they received {gems} gems",
       "failed": "Boost Failed",
       "processingError": "Error performing Telegram boost",
       "genericError": "Failed to process boost",

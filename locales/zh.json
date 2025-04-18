@@ -217,8 +217,6 @@
   "telegram": {
     "boost": {
       "title": "Telegram提升",
-      "applied": "提升已应用！",
-      "successMessage": "您已提升朋友宝箱倒计时{minutes}分钟，并且他们获得了{gems}宝石",
       "failed": "提升失败",
       "processingError": "处理Telegram提升时出错",
       "genericError": "处理提升时失败",
