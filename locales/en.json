@@ -17,6 +17,7 @@
   },
   "profile": {
     "title": "Profile",
+    "ticketTransfer": "Free Ticket Transfer",
     "tonRewardBalance": "TON Reward Balance",
     "settings": "Settings"
   },
@@ -217,6 +218,7 @@
   "telegram": {
     "boost": {
       "title": "Telegram Boost",
+      "boostInfo": "Boost grants {gems} Gems and reduces chest time for {minutes} min.",
       "failed": "Boost Failed",
       "processingError": "Error performing Telegram boost",
       "genericError": "Failed to process boost",
@@ -248,6 +250,47 @@
     "message": "As one of our earliest users, you’ve unlocked a <strong>special reward chest</strong>! Claim it now before it disappears.",
     "acceptButton": "Claim Chest",
     "loading": "Claiming..."
+  },
+  "countdownChestPopup": {
+      "infoTitle": "Countdown Chest Info",
+      "infoContent": "You can claim one chest every 24 hours when the countdown ends. After claiming, the timer resets for another 24 hours.<br><br>When you open a <strong>Level 3</strong> or <strong>Level 4</strong> chest, you'll get a <strong>Boost Link</strong> that can be shared with friends. Each valid assist grants both you and the helper rewards:<ul><li><strong>Level 3 Chest:</strong> +1 hour speed boost and GEM ×50</li><li><strong>Level 4 Chest:</strong> +2 hours speed boost and GEM ×100</li></ul>Each link is valid for 12 hours and can be used up to 12 times. After that, it will expire automatically.<br><br>You may also receive <strong>Promo Boost</strong> from other users' chest activity. If you have an active countdown, this assist will automatically reduce your time based on the chest they open.<br><br><table class='promo-boost-table'><thead><tr><th>Chest Level</th><th>Tier 1 Boost</th><th>Tier 2 Boost</th></tr></thead><tbody><tr><td>Level 1</td><td>10 minutes</td><td>5 minutes</td></tr><tr><td>Level 2</td><td>30 minutes</td><td>15 minutes</td></tr><tr><td>Level 3</td><td>1 hour</td><td>30 minutes</td></tr><tr><td>Level 4</td><td>12 hours</td><td>6 hours</td></tr></tbody></table><br><em>Note: Telegram Star auto-claim feature is not yet available.</em>",
+  
+      "oddTitle": "Chest Drop Rates",
+      "oddContent": "Each time you claim a countdown chest, one of the following chest types will be randomly granted:<ul><li><strong>LV1 Chest</strong> – 60% chance (Most common)</li><li><strong>LV2 Chest</strong> – 28% chance (Uncommon)</li><li><strong>LV3 Chest</strong> – 10% chance (Rare)</li><li><strong>LV4 Chest</strong> – 2% chance (Very rare)</li></ul>Higher level chests offer a better chance of receiving rarer fragments and larger amounts of gems.<br><br>Here's a general idea of the kind of rewards each chest may contain:<ul><li><strong>LV1:</strong> Green fragments and a small chance at blue</li><li><strong>LV2:</strong> Blue fragments and possibly purple</li><li><strong>LV3:</strong> Blue, purple, and sometimes gold fragments</li><li><strong>LV4:</strong> Guaranteed purple and gold fragments, and high gem rewards</li></ul><br><em>Note: Item probabilities and reward contents may be adjusted over time to improve game balance.</em>"
+    },
+"jackpotInfoOverlay": {
+    "title": "Jackpot Chest",
+    "description": "The Jackpot Chest rewards players for daily activity. By performing key actions, you help grow the TON Jackpot pool.",
+    "contribute": "Contribute",
+    "contributeDesc": "Actions like registration and chest opening add TON to the pool.",
+    "trigger": "Trigger",
+    "triggerDesc": "Once the pool is full, the next chest opened instantly wins the Jackpot.",
+    "tiers": "Tiers",
+    "tiersDesc": "Higher levels offer bigger rewards and include multiple contribution types.",
+    "earnedPerAction": "Earned per action:",
+    "newUserRegistration": "New user registration",
+    "openingChest": "Opening chest",
+    "jackpotReward": "Jackpot Reward:",
+    "note": "Note: Jackpot rules and rewards may change to keep the system balanced."
+  },
+  "ticketTransfer": {
+      "title": "Free Ticket Transfer",
+      "recipientLabel": "Recipient Address",
+      "recipientPlaceholder": "Enter wallet address",
+      "ticketCountLabel": "Number of Tickets",
+      "ticketCountPlaceholder": "Enter number of tickets",
+      "availableTickets": "{current}/{max} Tickets Available",
+      "transferButton": "Transfer Tickets",
+      "transferring": "Transferring...",
+      "successMessage": "Tickets successfully transferred!",
+      "genericError": "Failed to transfer tickets. Please try again.",
+      "errorFetchingLimit": "Could not retrieve available tickets.",
+      "invalidAddress": "Please enter a valid wallet address",
+      "invalidAmount": "Please enter a valid number of tickets",
+      "exceedsLimit": "You can only transfer up to {max} tickets",
+      "noTicketsAvailable": "No tickets available for transfer",
+      "transferComplete": "Transfer Complete",
+      "transferFailed": "Transfer Failed"
   }
   
 }

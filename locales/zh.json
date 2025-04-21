@@ -17,6 +17,7 @@
   },
   "profile": {
     "title": "个人资料",
+    "ticketTransfer": "免费票券转移",
     "tonRewardBalance": "TON奖励余额",
     "settings": "设置"
   },
@@ -217,6 +218,7 @@
   "telegram": {
     "boost": {
       "title": "Telegram提升",
+      "boostInfo": "加速奖励 {gems} 宝石，并减少 {minutes} 分钟的宝箱时间。",
       "failed": "提升失败",
       "processingError": "处理Telegram提升时出错",
       "genericError": "处理提升时失败",
@@ -248,6 +250,47 @@
     "message": "作为我们最早的用户之一，你已解锁<strong>专属宝箱奖励</strong>！赶紧领取，活动即将结束。",
     "acceptButton": "领取宝箱",
     "loading": "领取中..."
-  }
+  },
+"countdownChestPopup": {
+    "infoTitle": "倒计时宝箱说明",
+    "infoContent": "每位用户可在倒计时结束后领取一个宝箱，领取后倒计时将重置为新的 24 小时周期。<br><br>当你开启 <strong>3级</strong> 或 <strong>4级</strong> 宝箱时，将获得一个 <strong>助力链接</strong> 可分享给好友。每个有效助力可为双方带来奖励：<ul><li><strong>3级宝箱：</strong>加速 1 小时并获得 GEM ×50</li><li><strong>4级宝箱：</strong>加速 2 小时并获得 GEM ×100</li></ul>每个链接有效期为 12 小时，最多可被使用 12 次，之后将自动失效。<br><br>你还可以通过其他用户开启宝箱获得 <strong>推广助力</strong>，如果你当前有倒计时在运行，将自动获得加速效果，具体取决于对方开启的宝箱等级。<br><br><table class='promo-boost-table'><thead><tr><th>宝箱等级</th><th>第一层加速</th><th>第二层加速</th></tr></thead><tbody><tr><td>1级</td><td>10分钟</td><td>5分钟</td></tr><tr><td>2级</td><td>30分钟</td><td>15分钟</td></tr><tr><td>3级</td><td>1小时</td><td>30分钟</td></tr><tr><td>4级</td><td>12小时</td><td>6小时</td></tr></tbody></table><br><em>注：Telegram Star 自动领取功能尚未开放。</em>",
+
+    "oddTitle": "宝箱掉落概率",
+    "oddContent": "每次领取倒计时宝箱时，将随机获得以下宝箱之一：<ul><li><strong>1级宝箱</strong> – 60% 概率（最常见）</li><li><strong>2级宝箱</strong> – 28% 概率（较常见）</li><li><strong>3级宝箱</strong> – 10% 概率（稀有）</li><li><strong>4级宝箱</strong> – 2% 概率（非常稀有）</li></ul>宝箱等级越高，获得稀有碎片和更多 GEM 的概率就越大。<br><br>以下是每种宝箱可能包含的奖励内容概览：<ul><li><strong>1级：</strong>绿色碎片，可能少量蓝色碎片</li><li><strong>2级：</strong>蓝色碎片，有机会获得紫色碎片</li><li><strong>3级：</strong>蓝色、紫色碎片，并偶尔掉落金色碎片</li><li><strong>4级：</strong>必得紫色与金色碎片，并附带高额 GEM 奖励</li></ul><br><em>注：具体概率与奖励内容可能会随着游戏平衡性调整而变化。</em>"
+  },
+"jackpotInfoOverlay": {
+      "title": "奖金宝箱",
+      "description": "奖金宝箱奖励玩家的日常活动。通过执行关键操作，您可以帮助增加TON奖金池。",
+      "contribute": "贡献",
+      "contributeDesc": "注册和开启宝箱等操作会向奖金池中添加TON。",
+      "trigger": "触发",
+      "triggerDesc": "一旦奖金池满了，下一个开启的宝箱将立即赢得奖金。",
+      "tiers": "等级",
+      "tiersDesc": "更高级别提供更大的奖励，并包括多种贡献类型。",
+      "earnedPerAction": "每个操作获得：",
+      "newUserRegistration": "新用户注册",
+      "openingChest": "开启宝箱",
+      "jackpotReward": "奖金奖励：",
+      "note": "注意：奖金规则和奖励可能会改变，以保持系统平衡。"
+    },
+    "ticketTransfer": {
+      "title": "免费票券转移",
+      "recipientLabel": "接收地址",
+      "recipientPlaceholder": "输入钱包地址",
+      "ticketCountLabel": "票券数量",
+      "ticketCountPlaceholder": "输入票券数量",
+      "availableTickets": "可用票券：{current}/{max}",
+      "transferButton": "转移票券",
+      "transferring": "转移中...",
+      "successMessage": "票券转移成功！",
+      "genericError": "票券转移失败，请重试。",
+      "errorFetchingLimit": "无法获取可用票券数量。",
+      "invalidAddress": "请输入有效的钱包地址",
+      "invalidAmount": "请输入有效的票券数量",
+      "exceedsLimit": "您最多只能转移 {max} 张票券",
+      "noTicketsAvailable": "没有可用于转移的票券",
+      "transferComplete": "转移完成",
+      "transferFailed": "转移失败"
+    }
   
 }
